@@ -3,7 +3,7 @@
   "displayName": "Photon Extension",
   "description": "An extension for the coding in photon",
   "publisher": "SkyDeveloppement",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "icon/photon-icon.png",
   "engines": {
     "vscode": "^1.87.0"
