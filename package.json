@@ -4,6 +4,7 @@
   "description": "An extension for the coding in photon",
   "publisher": "SkyDeveloppement",
   "version": "0.0.1",
+  "icon": "icon/photon-icon.png",
   "engines": {
     "vscode": "^1.87.0"
   },
