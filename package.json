@@ -2,6 +2,7 @@
   "name": "photon-extension",
   "displayName": "Photon Extension",
   "description": "An extension for the coding in photon",
+  "publisher": "SkyDeveloppement",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"
@@ -45,6 +46,10 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkyDeveloppement/Photon"
+  },  
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
