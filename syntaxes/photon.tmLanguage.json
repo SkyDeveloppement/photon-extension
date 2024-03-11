@@ -1,0 +1,48 @@
+{
+    "name": "Photon",
+    "scopeName": "source.photon",
+    "fileTypes": ["photon"],
+    "patterns": [
+        {
+            "name": "comment.line.photon",
+            "match": "//.*",
+            "captures": {
+                "0": { "name": "punctuation.definition.comment.photon" }
+            }
+        },
+        {
+            "name": "constant.numeric.photon",
+            "match": "\\b\\d+(\\.\\d+)?\\b",
+            "captures": {
+                "0": { "name": "constant.numeric.photon" }
+            }
+        },
+        {
+            "name": "keyword.control.photon",
+            "match": "\\b(if|else|for|while|break|continue|return|const|let|var|secure)\\b",
+            "captures": {
+                "0": { "name": "keyword.control.photon" }
+            }
+        },
+        {
+            "name": "string.quoted.double.photon",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.photon",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        {
+            "name" : "function.call.photon",
+            "match" : "\\bconsole\\.display\\b",
+            "captures": {
+            "0": { "name": "support.function.photon" }
+            }
+        }
+    ],
+    "repository": {
+    }
+}

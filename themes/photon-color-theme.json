@@ -1,0 +1,43 @@
+{
+    "name": "Photon Theme",
+    "colors": {
+        "editor.foreground": "#eeeeee",
+        "editor.background": "#282c34",
+        "editor.selectionBackground": "#3ca9c2",
+        "editor.lineHighlightBackground": "#282c34",
+        "editorCursor.foreground": "#2878ec",
+        "editorWhitespace.foreground": "#3ca9c2"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment.line.photon",
+            "settings": {
+                "foreground": "#98c379"
+            }
+        },
+        {
+            "scope": "constant.numeric.photon",
+            "settings": {
+                "foreground": "#d19a66"
+            }
+        },
+        {
+            "scope": "keyword.control.photon",
+            "settings": {
+                "foreground": "#c678dd"
+            }
+        },
+        {
+            "scope": "string.quoted.double.photon",
+            "settings": {
+                "foreground": "#56b6c2"
+            }
+        },
+        {
+            "scope": "support.function.photon",
+            "settings": {
+                "foreground": "#fea44c"
+            }
+        }
+    ]
+}
