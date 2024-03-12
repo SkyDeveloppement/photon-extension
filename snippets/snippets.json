@@ -1,0 +1,16 @@
+{
+    "Photon Console Display": {
+        "prefix": "phdisplay",
+        "body": [
+            "console.display(\"${1:Hello World!}\")"
+        ],
+        "description": "Display a message in the Photon console"
+    },
+    "Photon Variable Declaration": {
+        "prefix": "phvar",
+        "body": [
+            "${1|const,let,var,secure|} ${2:variableName} = ${3:value};"
+        ],
+        "description": "Declare a new variable in Photon"
+    }
+}
