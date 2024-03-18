@@ -1,7 +1,7 @@
 {
   "name": "photon-extension",
   "displayName": "Photon Extension",
-  "description": "An extension for the coding in photon with the syntaxic coloration, icon, snippets and a command for load project",
+  "description": "An extension for the coding in photon with the syntaxic coloration, icon, snippets and a command for load project. Warning ! Photon language is in dev so the extension is not finish!",
   "publisher": "SkyDeveloppement",
   "version": "0.0.6",
   "icon": "icon/photon-icon.png",
@@ -30,7 +30,8 @@
         }
       }
     ],    
-    "languages": [{
+    "languages": [
+      {
       "id": "photon",
       "aliases": ["Photon", "photon"],
       "extensions": [".photon"],
@@ -39,7 +40,8 @@
         "dark": "icon/photon-icon.png",
         "light": "icon/photon-icon.png"
       }
-    }],
+      }
+    ],
     "grammars": [{
       "language": "photon",
       "scopeName": "source.photon",
